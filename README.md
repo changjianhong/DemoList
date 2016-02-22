@@ -3,4 +3,4 @@
 
 1.SegmentController
 
-
+![SegmentController.png](/Users/changjianhong/Desktop/segmentController.png)
