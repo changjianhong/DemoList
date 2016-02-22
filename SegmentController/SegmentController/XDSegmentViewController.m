@@ -24,10 +24,11 @@ CGFloat const kSegmentHeight = 44;
 {
   [super viewDidLoad];
   [self.view setBackgroundColor:[UIColor whiteColor]];
-  [self addChildViewController:self.pageViewController];
+  [self _std_setupPageViewController];
   [self.view addSubview:self.segmentView];
 
   self.currentIndex = 0;
+  [self.segmentView setSelectedIndex:0];
 }
 
 - (void)viewDidLayoutSubviews
@@ -67,26 +68,22 @@ CGFloat const kSegmentHeight = 44;
   return _segmentView;
 }
 
-- (UIPageViewController *)pageViewController
+- (void)_std_setupPageViewController
 {
-  if (!_pageViewController) {
-    NSDictionary *options =[NSDictionary dictionaryWithObject:[NSNumber numberWithInteger:UIPageViewControllerSpineLocationMin]
-                                                       forKey: UIPageViewControllerOptionSpineLocationKey];
-    _pageViewController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:options];
-    _pageViewController.delegate = self;
-    _pageViewController.dataSource = self;
-    [_pageViewController setViewControllers:@[[self.viewControllerArray objectAtIndex:0]] direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:^(BOOL finished) {
-    }];
-    [_pageViewController.view setFrame:CGRectMake(0, kSegmentHeight, self.view.frame.size.width, self.view.frame.size.height - kSegmentHeight)];
-    [self addChildViewController:_pageViewController];
-    [self.view addSubview:_pageViewController.view];
-    [_pageViewController didMoveToParentViewController:self];
-    
-    //一定在addChildViewController后执行，否则navigation栈会乱
-    [_pageViewController setViewControllers:@[[self.viewControllerArray objectAtIndex:0]] direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:^(BOOL finished) {
-    }];    [self _std_setupPageScrollView];
-  }
-  return _pageViewController;
+  NSDictionary *options =[NSDictionary dictionaryWithObject:[NSNumber numberWithInteger:UIPageViewControllerSpineLocationMin]
+                                                     forKey: UIPageViewControllerOptionSpineLocationKey];
+  _pageViewController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:options];
+  _pageViewController.delegate = self;
+  _pageViewController.dataSource = self;
+  [_pageViewController.view setFrame:CGRectMake(0, kSegmentHeight, self.view.frame.size.width, self.view.frame.size.height - kSegmentHeight)];
+  [self addChildViewController:_pageViewController];
+  [self.view addSubview:_pageViewController.view];
+  [_pageViewController didMoveToParentViewController:self];
+  
+  //一定在addChildViewController后执行，否则navigation栈会乱
+  [_pageViewController setViewControllers:@[[self.viewControllerArray objectAtIndex:0]] direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:^(BOOL finished) {
+  }];
+  [self _std_setupPageScrollView];
 }
 
 //0 375 750

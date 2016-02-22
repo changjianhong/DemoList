@@ -3,4 +3,4 @@
 
 1.SegmentController
 
-![image](https://github.com/changjianhong/DemoList/tree/master/image/segmentController.png)
+![image](https://github.com/changjianhong/DemoList/blob/master/image/segmentController.png)
