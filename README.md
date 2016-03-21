@@ -2,5 +2,4 @@
 各类Demo集合
 
 1.SegmentController
-
-![image](https://github.com/changjianhong/DemoList/blob/master/image/segmentController.png)
+2.VideoDemo 基于 SCRecord

@@ -1,0 +1,26 @@
+/* 
+  read.strings
+  3D-Touch
+
+  Created by changjianhong on 16/2/9.
+  Copyright © 2016年 changjianhong. All rights reserved.
+*/
+
+1.git clone https://github.com/DeskConnect/SBShortcutMenuSimulator.git
+  cd SBShortcutMenuSimulator
+  make
+2.xcrun simctl spawn booted launchctl debug system/com.apple.SpringBoard --environment DYLD_INSERT_LIBRARIES=$PWD/SBShortcutMenuSimulator.dylib
+  xcrun simctl spawn booted launchctl stop com.apple.SpringBoard
+3.echo 'bundle identifier' | nc 127.0.0.1 8000
+
+
+<key>UIApplicationShortcutItems</key>
+<array>
+<dict>
+<key>UIApplicationShortcutItemTitle</key>
+<string>touch</string>
+<key>UIApplicationShortcutItemType</key>
+<string>type</string>
+</dict>
+</array>
+
