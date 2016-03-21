@@ -1,0 +1,22 @@
+PODS:
+  - MBProgressHUD (0.9.2)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SCRecorder (2.7.0)
+
+DEPENDENCIES:
+  - MBProgressHUD (~> 0.9)
+  - ReactiveCocoa (~> 2.5)
+  - SCRecorder
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SCRecorder: bbb521dbc222908876ec9cd9156bbc8a893bed44
+
+COCOAPODS: 0.39.0

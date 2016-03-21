@@ -1,0 +1,4 @@
+pod 'SCRecorder'
+pod 'MBProgressHUD', '~> 0.9'
+pod 'ReactiveCocoa', '~> 2.5'
+
