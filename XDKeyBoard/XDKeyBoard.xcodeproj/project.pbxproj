@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270601FE1C853EE0009B6EF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 270601FD1C853EE0009B6EF0 /* main.m */; };
+		270602011C853EE0009B6EF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 270602001C853EE0009B6EF0 /* AppDelegate.m */; };
+		270602041C853EE0009B6EF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 270602031C853EE0009B6EF0 /* ViewController.m */; };
+		270602071C853EE0009B6EF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270602051C853EE0009B6EF0 /* Main.storyboard */; };
+		270602091C853EE0009B6EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270602081C853EE0009B6EF0 /* Assets.xcassets */; };
+		2706020C1C853EE0009B6EF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2706020A1C853EE0009B6EF0 /* LaunchScreen.storyboard */; };
+		270602171C853EE0009B6EF0 /* XDKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 270602161C853EE0009B6EF0 /* XDKeyBoardTests.m */; };
+		270602221C853EE0009B6EF0 /* XDKeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 270602211C853EE0009B6EF0 /* XDKeyBoardUITests.m */; };
+		270602441C853EEE009B6EF0 /* EaseEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 270602321C853EEE009B6EF0 /* EaseEmoji.m */; };
+		270602451C853EEE009B6EF0 /* EaseEmojiEmoticons.m in Sources */ = {isa = PBXBuildFile; fileRef = 270602341C853EEE009B6EF0 /* EaseEmojiEmoticons.m */; };
+		270602461C853EEE009B6EF0 /* EaseEmotionEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = 270602361C853EEE009B6EF0 /* EaseEmotionEscape.m */; };
+		270602471C853EEE009B6EF0 /* EaseEmotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 270602381C853EEE009B6EF0 /* EaseEmotionManager.m */; };
+		270602481C853EEE009B6EF0 /* EaseFaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2706023B1C853EEE009B6EF0 /* EaseFaceView.m */; };
+		270602491C853EEE009B6EF0 /* EaseFacialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2706023D1C853EEE009B6EF0 /* EaseFacialView.m */; };
+		2706024C1C853EEE009B6EF0 /* XMProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 270602431C853EEE009B6EF0 /* XMProgressHUD.m */; };
+		270602501C854209009B6EF0 /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2706024F1C854209009B6EF0 /* SwipeView.m */; };
+		270602531C85423A009B6EF0 /* XDToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 270602521C85423A009B6EF0 /* XDToolBar.m */; };
+		E3CFAC886CBB5FD22186EC13 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A101040D4142825BB146CA8 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		270602131C853EE0009B6EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 270601F11C853EE0009B6EF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 270601F81C853EE0009B6EF0;
+			remoteInfo = XDKeyBoard;
+		};
+		2706021E1C853EE0009B6EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 270601F11C853EE0009B6EF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 270601F81C853EE0009B6EF0;
+			remoteInfo = XDKeyBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		270601F91C853EE0009B6EF0 /* XDKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		270601FD1C853EE0009B6EF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		270601FF1C853EE0009B6EF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		270602001C853EE0009B6EF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		270602021C853EE0009B6EF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		270602031C853EE0009B6EF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		270602061C853EE0009B6EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		270602081C853EE0009B6EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2706020B1C853EE0009B6EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2706020D1C853EE0009B6EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270602121C853EE0009B6EF0 /* XDKeyBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDKeyBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		270602161C853EE0009B6EF0 /* XDKeyBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDKeyBoardTests.m; sourceTree = "<group>"; };
+		270602181C853EE0009B6EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2706021D1C853EE0009B6EF0 /* XDKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		270602211C853EE0009B6EF0 /* XDKeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDKeyBoardUITests.m; sourceTree = "<group>"; };
+		270602231C853EE0009B6EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270602311C853EEE009B6EF0 /* EaseEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseEmoji.h; sourceTree = "<group>"; };
+		270602321C853EEE009B6EF0 /* EaseEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseEmoji.m; sourceTree = "<group>"; };
+		270602331C853EEE009B6EF0 /* EaseEmojiEmoticons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseEmojiEmoticons.h; sourceTree = "<group>"; };
+		270602341C853EEE009B6EF0 /* EaseEmojiEmoticons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseEmojiEmoticons.m; sourceTree = "<group>"; };
+		270602351C853EEE009B6EF0 /* EaseEmotionEscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseEmotionEscape.h; sourceTree = "<group>"; };
+		270602361C853EEE009B6EF0 /* EaseEmotionEscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseEmotionEscape.m; sourceTree = "<group>"; };
+		270602371C853EEE009B6EF0 /* EaseEmotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseEmotionManager.h; sourceTree = "<group>"; };
+		270602381C853EEE009B6EF0 /* EaseEmotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseEmotionManager.m; sourceTree = "<group>"; };
+		2706023A1C853EEE009B6EF0 /* EaseFaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseFaceView.h; sourceTree = "<group>"; };
+		2706023B1C853EEE009B6EF0 /* EaseFaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseFaceView.m; sourceTree = "<group>"; };
+		2706023C1C853EEE009B6EF0 /* EaseFacialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseFacialView.h; sourceTree = "<group>"; };
+		2706023D1C853EEE009B6EF0 /* EaseFacialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseFacialView.m; sourceTree = "<group>"; };
+		270602421C853EEE009B6EF0 /* XMProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMProgressHUD.h; sourceTree = "<group>"; };
+		270602431C853EEE009B6EF0 /* XMProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMProgressHUD.m; sourceTree = "<group>"; };
+		2706024E1C854209009B6EF0 /* SwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeView.h; sourceTree = "<group>"; };
+		2706024F1C854209009B6EF0 /* SwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeView.m; sourceTree = "<group>"; };
+		270602511C85423A009B6EF0 /* XDToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDToolBar.h; sourceTree = "<group>"; };
+		270602521C85423A009B6EF0 /* XDToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDToolBar.m; sourceTree = "<group>"; };
+		3A101040D4142825BB146CA8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58008CC54906B106FF5D1515 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BD055C8ABA2C9C0CF56FB9F8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		270601F61C853EE0009B6EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CFAC886CBB5FD22186EC13 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2706020F1C853EE0009B6EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2706021A1C853EE0009B6EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		270601F01C853EE0009B6EF0 = {
+			isa = PBXGroup;
+			children = (
+				270601FB1C853EE0009B6EF0 /* XDKeyBoard */,
+				270602151C853EE0009B6EF0 /* XDKeyBoardTests */,
+				270602201C853EE0009B6EF0 /* XDKeyBoardUITests */,
+				270601FA1C853EE0009B6EF0 /* Products */,
+				BC768EB9C79BD89F0B851778 /* Pods */,
+				A2BB90EF0035C85474C554B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		270601FA1C853EE0009B6EF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				270601F91C853EE0009B6EF0 /* XDKeyBoard.app */,
+				270602121C853EE0009B6EF0 /* XDKeyBoardTests.xctest */,
+				2706021D1C853EE0009B6EF0 /* XDKeyBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		270601FB1C853EE0009B6EF0 /* XDKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				2706022F1C853EEE009B6EF0 /* XDKeyBoard */,
+				270601FF1C853EE0009B6EF0 /* AppDelegate.h */,
+				270602001C853EE0009B6EF0 /* AppDelegate.m */,
+				270602021C853EE0009B6EF0 /* ViewController.h */,
+				270602031C853EE0009B6EF0 /* ViewController.m */,
+				270602051C853EE0009B6EF0 /* Main.storyboard */,
+				270602081C853EE0009B6EF0 /* Assets.xcassets */,
+				2706020A1C853EE0009B6EF0 /* LaunchScreen.storyboard */,
+				2706020D1C853EE0009B6EF0 /* Info.plist */,
+				270601FC1C853EE0009B6EF0 /* Supporting Files */,
+			);
+			path = XDKeyBoard;
+			sourceTree = "<group>";
+		};
+		270601FC1C853EE0009B6EF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				270601FD1C853EE0009B6EF0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		270602151C853EE0009B6EF0 /* XDKeyBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				270602161C853EE0009B6EF0 /* XDKeyBoardTests.m */,
+				270602181C853EE0009B6EF0 /* Info.plist */,
+			);
+			path = XDKeyBoardTests;
+			sourceTree = "<group>";
+		};
+		270602201C853EE0009B6EF0 /* XDKeyBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				270602211C853EE0009B6EF0 /* XDKeyBoardUITests.m */,
+				270602231C853EE0009B6EF0 /* Info.plist */,
+			);
+			path = XDKeyBoardUITests;
+			sourceTree = "<group>";
+		};
+		2706022F1C853EEE009B6EF0 /* XDKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				2706024D1C8541E3009B6EF0 /* SwipeView */,
+				270602301C853EEE009B6EF0 /* Emoji */,
+				270602391C853EEE009B6EF0 /* FaceView */,
+				270602511C85423A009B6EF0 /* XDToolBar.h */,
+				270602521C85423A009B6EF0 /* XDToolBar.m */,
+				270602421C853EEE009B6EF0 /* XMProgressHUD.h */,
+				270602431C853EEE009B6EF0 /* XMProgressHUD.m */,
+			);
+			path = XDKeyBoard;
+			sourceTree = "<group>";
+		};
+		270602301C853EEE009B6EF0 /* Emoji */ = {
+			isa = PBXGroup;
+			children = (
+				270602311C853EEE009B6EF0 /* EaseEmoji.h */,
+				270602321C853EEE009B6EF0 /* EaseEmoji.m */,
+				270602331C853EEE009B6EF0 /* EaseEmojiEmoticons.h */,
+				270602341C853EEE009B6EF0 /* EaseEmojiEmoticons.m */,
+				270602351C853EEE009B6EF0 /* EaseEmotionEscape.h */,
+				270602361C853EEE009B6EF0 /* EaseEmotionEscape.m */,
+				270602371C853EEE009B6EF0 /* EaseEmotionManager.h */,
+				270602381C853EEE009B6EF0 /* EaseEmotionManager.m */,
+			);
+			path = Emoji;
+			sourceTree = "<group>";
+		};
+		270602391C853EEE009B6EF0 /* FaceView */ = {
+			isa = PBXGroup;
+			children = (
+				2706023A1C853EEE009B6EF0 /* EaseFaceView.h */,
+				2706023B1C853EEE009B6EF0 /* EaseFaceView.m */,
+				2706023C1C853EEE009B6EF0 /* EaseFacialView.h */,
+				2706023D1C853EEE009B6EF0 /* EaseFacialView.m */,
+			);
+			path = FaceView;
+			sourceTree = "<group>";
+		};
+		2706024D1C8541E3009B6EF0 /* SwipeView */ = {
+			isa = PBXGroup;
+			children = (
+				2706024E1C854209009B6EF0 /* SwipeView.h */,
+				2706024F1C854209009B6EF0 /* SwipeView.m */,
+			);
+			path = SwipeView;
+			sourceTree = "<group>";
+		};
+		A2BB90EF0035C85474C554B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A101040D4142825BB146CA8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC768EB9C79BD89F0B851778 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58008CC54906B106FF5D1515 /* Pods.debug.xcconfig */,
+				BD055C8ABA2C9C0CF56FB9F8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		270601F81C853EE0009B6EF0 /* XDKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 270602261C853EE0009B6EF0 /* Build configuration list for PBXNativeTarget "XDKeyBoard" */;
+			buildPhases = (
+				40A7633E27560FB112FF50D6 /* Check Pods Manifest.lock */,
+				270601F51C853EE0009B6EF0 /* Sources */,
+				270601F61C853EE0009B6EF0 /* Frameworks */,
+				270601F71C853EE0009B6EF0 /* Resources */,
+				1E5A5420D7028B9AF1CF652D /* Embed Pods Frameworks */,
+				78BC211B385662EE754B89FD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XDKeyBoard;
+			productName = XDKeyBoard;
+			productReference = 270601F91C853EE0009B6EF0 /* XDKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		270602111C853EE0009B6EF0 /* XDKeyBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 270602291C853EE0009B6EF0 /* Build configuration list for PBXNativeTarget "XDKeyBoardTests" */;
+			buildPhases = (
+				2706020E1C853EE0009B6EF0 /* Sources */,
+				2706020F1C853EE0009B6EF0 /* Frameworks */,
+				270602101C853EE0009B6EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				270602141C853EE0009B6EF0 /* PBXTargetDependency */,
+			);
+			name = XDKeyBoardTests;
+			productName = XDKeyBoardTests;
+			productReference = 270602121C853EE0009B6EF0 /* XDKeyBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2706021C1C853EE0009B6EF0 /* XDKeyBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2706022C1C853EE0009B6EF0 /* Build configuration list for PBXNativeTarget "XDKeyBoardUITests" */;
+			buildPhases = (
+				270602191C853EE0009B6EF0 /* Sources */,
+				2706021A1C853EE0009B6EF0 /* Frameworks */,
+				2706021B1C853EE0009B6EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2706021F1C853EE0009B6EF0 /* PBXTargetDependency */,
+			);
+			name = XDKeyBoardUITests;
+			productName = XDKeyBoardUITests;
+			productReference = 2706021D1C853EE0009B6EF0 /* XDKeyBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		270601F11C853EE0009B6EF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = changjianhong;
+				TargetAttributes = {
+					270601F81C853EE0009B6EF0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					270602111C853EE0009B6EF0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 270601F81C853EE0009B6EF0;
+					};
+					2706021C1C853EE0009B6EF0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 270601F81C853EE0009B6EF0;
+					};
+				};
+			};
+			buildConfigurationList = 270601F41C853EE0009B6EF0 /* Build configuration list for PBXProject "XDKeyBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 270601F01C853EE0009B6EF0;
+			productRefGroup = 270601FA1C853EE0009B6EF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				270601F81C853EE0009B6EF0 /* XDKeyBoard */,
+				270602111C853EE0009B6EF0 /* XDKeyBoardTests */,
+				2706021C1C853EE0009B6EF0 /* XDKeyBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		270601F71C853EE0009B6EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2706020C1C853EE0009B6EF0 /* LaunchScreen.storyboard in Resources */,
+				270602091C853EE0009B6EF0 /* Assets.xcassets in Resources */,
+				270602071C853EE0009B6EF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270602101C853EE0009B6EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2706021B1C853EE0009B6EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E5A5420D7028B9AF1CF652D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40A7633E27560FB112FF50D6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		78BC211B385662EE754B89FD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		270601F51C853EE0009B6EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270602441C853EEE009B6EF0 /* EaseEmoji.m in Sources */,
+				270602531C85423A009B6EF0 /* XDToolBar.m in Sources */,
+				2706024C1C853EEE009B6EF0 /* XMProgressHUD.m in Sources */,
+				270602481C853EEE009B6EF0 /* EaseFaceView.m in Sources */,
+				270602041C853EE0009B6EF0 /* ViewController.m in Sources */,
+				270602461C853EEE009B6EF0 /* EaseEmotionEscape.m in Sources */,
+				270602011C853EE0009B6EF0 /* AppDelegate.m in Sources */,
+				270602471C853EEE009B6EF0 /* EaseEmotionManager.m in Sources */,
+				270602491C853EEE009B6EF0 /* EaseFacialView.m in Sources */,
+				270601FE1C853EE0009B6EF0 /* main.m in Sources */,
+				270602501C854209009B6EF0 /* SwipeView.m in Sources */,
+				270602451C853EEE009B6EF0 /* EaseEmojiEmoticons.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2706020E1C853EE0009B6EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270602171C853EE0009B6EF0 /* XDKeyBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270602191C853EE0009B6EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270602221C853EE0009B6EF0 /* XDKeyBoardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		270602141C853EE0009B6EF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 270601F81C853EE0009B6EF0 /* XDKeyBoard */;
+			targetProxy = 270602131C853EE0009B6EF0 /* PBXContainerItemProxy */;
+		};
+		2706021F1C853EE0009B6EF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 270601F81C853EE0009B6EF0 /* XDKeyBoard */;
+			targetProxy = 2706021E1C853EE0009B6EF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		270602051C853EE0009B6EF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				270602061C853EE0009B6EF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2706020A1C853EE0009B6EF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2706020B1C853EE0009B6EF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		270602241C853EE0009B6EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		270602251C853EE0009B6EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		270602271C853EE0009B6EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58008CC54906B106FF5D1515 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XDKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = changjianhong.XDKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		270602281C853EE0009B6EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD055C8ABA2C9C0CF56FB9F8 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XDKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = changjianhong.XDKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2706022A1C853EE0009B6EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XDKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = changjianhong.XDKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XDKeyBoard.app/XDKeyBoard";
+			};
+			name = Debug;
+		};
+		2706022B1C853EE0009B6EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XDKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = changjianhong.XDKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XDKeyBoard.app/XDKeyBoard";
+			};
+			name = Release;
+		};
+		2706022D1C853EE0009B6EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XDKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = changjianhong.XDKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XDKeyBoard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2706022E1C853EE0009B6EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XDKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = changjianhong.XDKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XDKeyBoard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		270601F41C853EE0009B6EF0 /* Build configuration list for PBXProject "XDKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270602241C853EE0009B6EF0 /* Debug */,
+				270602251C853EE0009B6EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		270602261C853EE0009B6EF0 /* Build configuration list for PBXNativeTarget "XDKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270602271C853EE0009B6EF0 /* Debug */,
+				270602281C853EE0009B6EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		270602291C853EE0009B6EF0 /* Build configuration list for PBXNativeTarget "XDKeyBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2706022A1C853EE0009B6EF0 /* Debug */,
+				2706022B1C853EE0009B6EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2706022C1C853EE0009B6EF0 /* Build configuration list for PBXNativeTarget "XDKeyBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2706022D1C853EE0009B6EF0 /* Debug */,
+				2706022E1C853EE0009B6EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 270601F11C853EE0009B6EF0 /* Project object */;
+}
