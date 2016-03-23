@@ -11,4 +11,6 @@
 
 5.XDKeyBoard 表情 语音
 
-6.CopyLabel 可拷贝。。。
+6.CopyLabel 拷贝..多功能Label
+
+7.BannerCarouseView 利用2个imageView 实现的轮播（swift）
