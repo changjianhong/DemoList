@@ -14,6 +14,9 @@
 		273913751CA1292A00E5BF03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273913731CA1292A00E5BF03 /* LaunchScreen.storyboard */; };
 		273913801CA1292A00E5BF03 /* BannerCarouseViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2739137F1CA1292A00E5BF03 /* BannerCarouseViewTests.swift */; };
 		2739138B1CA1292A00E5BF03 /* BannerCarouseViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2739138A1CA1292A00E5BF03 /* BannerCarouseViewUITests.swift */; };
+		2739139C1CA12BB900E5BF03 /* JHCarouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2739139B1CA12BB900E5BF03 /* JHCarouseView.swift */; };
+		2739139E1CA12EDB00E5BF03 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2739139D1CA12EDB00E5BF03 /* Banner.swift */; };
+		273913A21CA1360800E5BF03 /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 273913A11CA1360800E5BF03 /* UIView+Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,11 @@
 		273913861CA1292A00E5BF03 /* BannerCarouseViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BannerCarouseViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2739138A1CA1292A00E5BF03 /* BannerCarouseViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCarouseViewUITests.swift; sourceTree = "<group>"; };
 		2739138C1CA1292A00E5BF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2739139B1CA12BB900E5BF03 /* JHCarouseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHCarouseView.swift; sourceTree = "<group>"; };
+		2739139D1CA12EDB00E5BF03 /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		2739139F1CA1360700E5BF03 /* BannerCarouseView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BannerCarouseView-Bridging-Header.h"; sourceTree = "<group>"; };
+		273913A01CA1360800E5BF03 /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
+		273913A11CA1360800E5BF03 /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,16 @@
 		273913691CA1292A00E5BF03 /* BannerCarouseView */ = {
 			isa = PBXGroup;
 			children = (
+				273913981CA1297200E5BF03 /* CarouseView */,
 				2739136A1CA1292A00E5BF03 /* AppDelegate.swift */,
 				2739136C1CA1292A00E5BF03 /* ViewController.swift */,
+				273913A01CA1360800E5BF03 /* UIView+Utils.h */,
+				273913A11CA1360800E5BF03 /* UIView+Utils.m */,
 				2739136E1CA1292A00E5BF03 /* Main.storyboard */,
 				273913711CA1292A00E5BF03 /* Assets.xcassets */,
 				273913731CA1292A00E5BF03 /* LaunchScreen.storyboard */,
 				273913761CA1292A00E5BF03 /* Info.plist */,
+				2739139F1CA1360700E5BF03 /* BannerCarouseView-Bridging-Header.h */,
 			);
 			path = BannerCarouseView;
 			sourceTree = "<group>";
@@ -123,6 +135,15 @@
 				2739138C1CA1292A00E5BF03 /* Info.plist */,
 			);
 			path = BannerCarouseViewUITests;
+			sourceTree = "<group>";
+		};
+		273913981CA1297200E5BF03 /* CarouseView */ = {
+			isa = PBXGroup;
+			children = (
+				2739139B1CA12BB900E5BF03 /* JHCarouseView.swift */,
+				2739139D1CA12EDB00E5BF03 /* Banner.swift */,
+			);
+			path = CarouseView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2739136D1CA1292A00E5BF03 /* ViewController.swift in Sources */,
+				2739139E1CA12EDB00E5BF03 /* Banner.swift in Sources */,
+				2739139C1CA12BB900E5BF03 /* JHCarouseView.swift in Sources */,
+				273913A21CA1360800E5BF03 /* UIView+Utils.m in Sources */,
 				2739136B1CA1292A00E5BF03 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,10 +423,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BannerCarouseView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = changjianhong.BannerCarouseView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BannerCarouseView/BannerCarouseView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +437,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BannerCarouseView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = changjianhong.BannerCarouseView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BannerCarouseView/BannerCarouseView-Bridging-Header.h";
 			};
 			name = Release;
 		};
